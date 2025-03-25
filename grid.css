@@ -1,0 +1,161 @@
+h1{color:blueviolet;}
+h2{color:blueviolet;}
+body{display:flex;
+background-color: black;
+padding: 0;
+margin: 0;}
+div.container{
+    min-width: 100%;
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 200px;
+    flex-direction:column;
+   
+}
+div.container2{
+    min-width: 100%;
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+
+}
+div.box1{width:50px;
+    height:50px;
+    padding:50%vh;
+    border:5px solid rgb(128, 128, 128);
+    margin-left:20px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    background-color: rgb(255, 131, 127);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+   }
+   div.box2{width:50px;
+       height:50px;
+       padding:50%vh;
+       border:5px solid gray;
+       margin-left:20px;
+       margin-top:20px;
+       margin-bottom: 20px;
+       margin-right: 20px;
+       padding-right: 20px;
+       padding-bottom: 30px;
+       padding-top: 40px;
+       background-color: rgb(255, 221, 127);
+       grid-row-start: 2;
+       grid-row-end: 4;
+      }
+      div.box3{width:50px;
+       height:50px;
+       padding:50%vh;
+       border:5px solid gray;
+       margin-left:20px;
+       margin-top:20px;
+       margin-bottom: 20px;
+       margin-right: 20px;
+       padding-right: 20px;
+       padding-bottom: 30px;
+       padding-top: 40px;
+       background-color: rgb(127, 187, 255);
+       text-align: center;
+      }
+      div.box4{width:50px;
+       height:50px;
+       padding:50%vh;
+       border:5px solid gray;
+       margin-left:20px;
+       margin-top:20px;
+       margin-bottom: 20px;
+       margin-right: 20px;
+       padding-right: 20px;
+       padding-bottom: 30px;
+       padding-top: 40px;
+       background-color: rgb(219, 255, 127);
+       text-align: center;
+   
+      }
+      div.box5{width:50px;
+       height:50px;
+       padding:50%vh;
+       border:5px solid gray;
+       margin-left:20px;
+       margin-top:20px;
+       margin-bottom: 20px;
+       margin-right: 20px;
+       padding-right: 20px;
+       padding-bottom: 30px;
+       padding-top: 40px;
+       background-color: rgb(255, 127, 133);
+       text-align: center;
+   
+      }
+      div.box6{width:50px;
+       height:50px;
+       padding:50%vh;
+       border:5px solid rgb(128, 128, 128);
+       margin-left:20px;
+       margin-top:20px;
+       margin-bottom: 20px;
+       margin-right: 20px;
+       padding-right: 20px;
+       padding-bottom: 30px;
+       padding-top: 40px;
+       background-color: rgb(150, 204, 204);
+       text-align: center;
+   
+      }
+      div.box7{width:50px;
+        height:50px;
+        padding:50%vh;
+        border:5px solid rgb(128, 128, 128);
+        margin-left:20px;
+        margin-top:20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+        padding-top: 40px;
+        background-color: rgb(190, 75, 77);
+        text-align: center;
+    
+       }
+       div.box8{width:50px;
+        height:50px;
+        padding:50%vh;
+        border:5px solid rgb(128, 128, 128);
+        margin-left:20px;
+        margin-top:20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+        padding-top: 40px;
+        background-color: rgb(255, 127, 212);
+        text-align: center;
+    
+       }
+       div.box9{width:50px;
+        height:50px;
+        padding:50%vh;
+        border:5px solid rgb(128, 128, 128);
+        margin-left:20px;
+        margin-top:20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+        padding-top: 40px;
+        background-color: rgb(127, 255, 161);
+        text-align: center;
+    
+       }

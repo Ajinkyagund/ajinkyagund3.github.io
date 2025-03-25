@@ -1,0 +1,66 @@
+/* Apply background image */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('back2.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+/* Navigation Bar */
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00bcd4;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 20px;
+    height: 80vh;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Image Styling */
+.profile-img {
+    width: 250px;   /* Set width */
+    height: 350px;  /* Set height to make it rectangular */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Text Alignment */
+.text h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+}
+
+.text h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #222;
+} 
